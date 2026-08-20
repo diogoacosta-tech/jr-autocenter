@@ -44,7 +44,7 @@ const GALLERY = [
 ];
 
 const WHATSAPP =
-  "https://l.instagram.com/?u=https%3A%2F%2Fapi.whatsapp.com%2Fsend%3Fphone%3D554733196471&e=AUAmC-LQ_ytoYCZT-_bXvOds1GqpoAnZhZMVlelNxvHC1OBWCSDLMq5Q4qAjETpGYVnAw4V-BED31a1wRbBVSInjBSZ9H67e4CUWOJWXWKuMUVPBm4fPzN6XXUZ5ZzEvqoXFgccRXQ78WpT3AdNasA";
+  "https://wa.me/554733196471?text=Ol%C3%A1!%20Vim%20pelo%20site%20da%20Jr%20Auto%20Center%20e%20gostaria%20de%20um%20or%C3%A7amento.";
 const PHONE = "tel:+554733196471";
 const MAPS =
   "https://www.google.com/maps/dir/?api=1&destination=R.+Jos%C3%A9+Francisco+Laurindo,+900+-+S%C3%A3o+Domingos,+Navegantes+-+SC,+88370-603";
@@ -187,7 +187,7 @@ function Navbar() {
         <a
           href={WHATSAPP}
           target="_blank"
-          rel="noreferrer"
+          rel="noopener noreferrer"
           className="ml-auto hidden rounded-xl bg-primary px-4 py-2 text-sm font-semibold text-primary-foreground shadow-[var(--shadow-neon)] transition-transform hover:scale-105 sm:inline-flex lg:ml-0"
         >
           Agendar via WhatsApp
@@ -216,7 +216,7 @@ function Navbar() {
             <a
               href={WHATSAPP}
               target="_blank"
-              rel="noreferrer"
+              rel="noopener noreferrer"
               className="rounded-xl bg-primary px-4 py-2 text-center text-sm font-semibold text-primary-foreground"
             >
               Agendar via WhatsApp
@@ -263,7 +263,7 @@ function Index() {
             <a
               href={WHATSAPP}
               target="_blank"
-              rel="noreferrer"
+              rel="noopener noreferrer"
               className="inline-flex items-center justify-center gap-2 rounded-2xl bg-primary px-7 py-4 font-semibold text-primary-foreground shadow-[var(--shadow-neon)] transition-transform hover:-translate-y-1"
             >
               <MessageCircle className="h-5 w-5" />
@@ -343,7 +343,7 @@ function Index() {
           <a
             href={WHATSAPP}
             target="_blank"
-            rel="noreferrer"
+            rel="noopener noreferrer"
             className="glow-hover grid place-items-center rounded-3xl bg-[var(--gradient-neon)] p-7 text-center font-semibold text-primary-foreground"
           >
             <span>
@@ -428,7 +428,7 @@ function Index() {
               <a
                 href={MAPS}
                 target="_blank"
-                rel="noreferrer"
+                rel="noopener noreferrer"
                 className="inline-flex items-center justify-center gap-2 rounded-2xl bg-primary px-6 py-3 font-semibold text-primary-foreground transition-transform hover:-translate-y-1"
               >
                 <Navigation className="h-4 w-4" /> Como Chegar
@@ -436,7 +436,7 @@ function Index() {
               <a
                 href={WHATSAPP}
                 target="_blank"
-                rel="noreferrer"
+                rel="noopener noreferrer"
                 className="glass glow-hover inline-flex items-center justify-center gap-2 rounded-2xl px-6 py-3 font-semibold"
               >
                 <MessageCircle className="h-4 w-4 text-neon" /> WhatsApp
@@ -463,7 +463,7 @@ function Index() {
           <a
             href="https://www.instagram.com/jr_aut0_center"
             target="_blank"
-            rel="noreferrer"
+            rel="noopener noreferrer"
             className="glass glow-hover inline-flex items-center gap-2 rounded-2xl px-5 py-3 text-sm"
           >
             <Instagram className="h-4 w-4 text-neon" /> @jr_aut0_center
@@ -478,7 +478,7 @@ function Index() {
       <a
         href={WHATSAPP}
         target="_blank"
-        rel="noreferrer"
+        rel="noopener noreferrer"
         aria-label="Falar no WhatsApp"
         className="animate-pulse-glow fixed right-5 bottom-5 z-50 grid h-14 w-14 place-items-center rounded-full bg-[oklch(0.72_0.19_145)] text-[oklch(0.15_0.02_150)] transition-transform hover:scale-110"
       >
