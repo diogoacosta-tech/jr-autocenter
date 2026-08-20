@@ -44,7 +44,7 @@ const GALLERY = [
 ];
 
 const WHATSAPP =
-  "https://api.whatsapp.com/send?phone=554799727651&text=Te%20encontrei%20pelo%20GOOGLE%20e%20gostaria%20de%20atendimento.";
+  "https://l.instagram.com/?u=https%3A%2F%2Fapi.whatsapp.com%2Fsend%3Fphone%3D554733196471&e=AUAmC-LQ_ytoYCZT-_bXvOds1GqpoAnZhZMVlelNxvHC1OBWCSDLMq5Q4qAjETpGYVnAw4V-BED31a1wRbBVSInjBSZ9H67e4CUWOJWXWKuMUVPBm4fPzN6XXUZ5ZzEvqoXFgccRXQ78WpT3AdNasA";
 const PHONE = "tel:+554733196471";
 const MAPS =
   "https://www.google.com/maps/dir/?api=1&destination=R.+Jos%C3%A9+Francisco+Laurindo,+900+-+S%C3%A3o+Domingos,+Navegantes+-+SC,+88370-603";
