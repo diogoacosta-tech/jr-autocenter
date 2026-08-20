@@ -29,7 +29,7 @@ import g5 from "@/assets/g_CIVIC.png_.asset.json";
 import g6 from "@/assets/g_488940867_18154578664360874_1702957836857660786_n.jpg_.asset.json";
 import g7 from "@/assets/g_MOTO.png_.asset.json";
 import g8 from "@/assets/g_Captura_de_tela_2026-08-20_085552.png_.asset.json";
-import g9 from "@/assets/g_10375ff4-ebc9-47e7-b674-a379ce7d9101.png_.asset.json";
+import g9 from "@/assets/g_defender.jpg.asset.json";
 
 const GALLERY = [
   { src: g1.url, alt: "Mustang em frente à fachada da Jr Auto Center" },
@@ -40,7 +40,7 @@ const GALLERY = [
   { src: g6.url, alt: "Caminhão Scania azul atendido na Jr Auto Center" },
   { src: g7.url, alt: "Motos Honda CBX sobre reboque na oficina" },
   { src: g8.url, alt: "Land Rover Discovery branca com rodas pretas" },
-  { src: g9.url, alt: "Volkswagen Jetta preto em frente à Jr Auto Center" },
+  { src: g9.url, alt: "Land Rover Defender em frente à fachada da Jr Auto Center" },
 ];
 
 const WHATSAPP =
