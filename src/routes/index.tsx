@@ -237,7 +237,7 @@ function Index() {
       <section id="inicio" className="relative flex min-h-screen items-center pt-28 pb-20">
         <img
           src={heroImg}
-          alt="Carro esportivo preto em oficina com iluminação neon"
+          alt="Carro esportivo preto em oficina com iluminação vermelha"
           width={1600}
           height={912}
           className="absolute inset-0 h-full w-full object-cover opacity-40"
