@@ -19,7 +19,7 @@ import {
   MessageCircle,
   Navigation,
 } from "lucide-react";
-import heroImg from "@/assets/hero.jpg";
+import heroAsset from "@/assets/hero-fachada.png.asset.json";
 import teamAsset from "@/assets/equipe.jpg.asset.json";
 import g1 from "@/assets/g_Captura_de_tela_2026-08-20_085509.png_.asset.json";
 import g2 from "@/assets/g_487240834_18153793108360874_574602109275842465_n.jpg_.asset.json";
@@ -236,14 +236,14 @@ function Index() {
       {/* HERO */}
       <section id="inicio" className="relative flex min-h-screen items-center pt-28 pb-20">
         <img
-          src={heroImg}
-          alt="Carro esportivo preto em oficina com iluminação vermelha"
-          width={1600}
-          height={912}
-          className="absolute inset-0 h-full w-full object-cover opacity-40"
+          src={heroAsset.url}
+          alt="Fachada da Jr Auto Center iluminada ao anoitecer em Navegantes - SC"
+          fetchPriority="high"
+          className="absolute inset-0 h-full w-full object-cover object-[72%_center] sm:object-[80%_center] lg:object-[65%_60%]"
         />
-        <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_30%_20%,color-mix(in_oklab,var(--neon)_18%,transparent),transparent_60%)]" />
-        <div className="absolute inset-0 bg-gradient-to-b from-background/70 via-background/60 to-background" />
+        <div className="absolute inset-0 bg-gradient-to-r from-background/95 via-background/70 to-background/25 lg:from-background/95 lg:via-background/55 lg:to-transparent" />
+        <div className="absolute inset-0 bg-gradient-to-b from-background/80 via-transparent to-background" />
+        <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_25%_25%,color-mix(in_oklab,var(--neon)_14%,transparent),transparent_60%)]" />
         <div className="relative mx-auto w-full max-w-6xl px-5">
           <div className="glass animate-float inline-flex items-center gap-2 rounded-full px-4 py-2 text-xs sm:text-sm">
             <Star className="h-4 w-4 fill-current text-gold" />
