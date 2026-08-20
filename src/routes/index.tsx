@@ -21,6 +21,27 @@ import {
 } from "lucide-react";
 import heroImg from "@/assets/hero.jpg";
 import teamAsset from "@/assets/equipe.jpg.asset.json";
+import g1 from "@/assets/g_Captura_de_tela_2026-08-20_085509.png_.asset.json";
+import g2 from "@/assets/g_487240834_18153793108360874_574602109275842465_n.jpg_.asset.json";
+import g3 from "@/assets/g_568682438_18174380404360874_7671363694067516714_n.jpg_.asset.json";
+import g4 from "@/assets/g_Captura_de_tela_2026-08-20_085441.png_.asset.json";
+import g5 from "@/assets/g_CIVIC.png_.asset.json";
+import g6 from "@/assets/g_488940867_18154578664360874_1702957836857660786_n.jpg_.asset.json";
+import g7 from "@/assets/g_MOTO.png_.asset.json";
+import g8 from "@/assets/g_Captura_de_tela_2026-08-20_085552.png_.asset.json";
+import g9 from "@/assets/g_10375ff4-ebc9-47e7-b674-a379ce7d9101.png_.asset.json";
+
+const GALLERY = [
+  { src: g1.url, alt: "Mustang em frente à fachada da Jr Auto Center" },
+  { src: g2.url, alt: "Golf GTI preto no showroom com parede de rodas" },
+  { src: g3.url, alt: "Mercedes-Benz prata dentro da loja Jr Auto Center" },
+  { src: g4.url, alt: "Lavagem detalhada com espuma em SUV branca" },
+  { src: g5.url, alt: "Honda Civic prata rebaixado na frente da oficina" },
+  { src: g6.url, alt: "Caminhão Scania azul atendido na Jr Auto Center" },
+  { src: g7.url, alt: "Motos Honda CBX sobre reboque na oficina" },
+  { src: g8.url, alt: "Land Rover Discovery branca com rodas pretas" },
+  { src: g9.url, alt: "Volkswagen Jetta preto em frente à Jr Auto Center" },
+];
 
 const WHATSAPP =
   "https://api.whatsapp.com/send?phone=554799727651&text=Te%20encontrei%20pelo%20GOOGLE%20e%20gostaria%20de%20atendimento.";
@@ -32,6 +53,7 @@ const NAV = [
   { label: "Início", href: "#inicio" },
   { label: "Equipe", href: "#equipe" },
   { label: "Serviços", href: "#servicos" },
+  { label: "Galeria", href: "#galeria" },
   { label: "Avaliações", href: "#avaliacoes" },
   { label: "Contato", href: "#contato" },
 ];
