@@ -4,6 +4,77 @@
 
 @custom-variant dark (&:is(.dark *));
 
+@theme {
+  --font-display: "Chakra Petch", ui-sans-serif, system-ui, sans-serif;
+  --font-sans: "Sora", ui-sans-serif, system-ui, sans-serif;
+  --color-neon: var(--neon);
+  --color-neon-soft: var(--neon-soft);
+  --color-gold: var(--gold);
+  --color-glass: var(--glass);
+  --color-glass-border: var(--glass-border);
+  --animate-float: float 6s ease-in-out infinite;
+  --animate-pulse-glow: pulse-glow 2.2s ease-in-out infinite;
+  --animate-rise: rise 0.8s cubic-bezier(0.16, 1, 0.3, 1) both;
+}
+
+@keyframes float {
+  0%,
+  100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-12px);
+  }
+}
+
+@keyframes pulse-glow {
+  0%,
+  100% {
+    box-shadow: 0 0 0 0 oklch(0.72 0.19 145 / 0.55);
+  }
+  70% {
+    box-shadow: 0 0 0 18px oklch(0.72 0.19 145 / 0);
+  }
+}
+
+@keyframes rise {
+  from {
+    opacity: 0;
+    transform: translateY(28px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@utility glass {
+  background: var(--glass);
+  border: 1px solid var(--glass-border);
+  backdrop-filter: blur(18px) saturate(140%);
+  -webkit-backdrop-filter: blur(18px) saturate(140%);
+  box-shadow: var(--shadow-depth);
+}
+
+@utility glow-hover {
+  transition:
+    transform 0.4s cubic-bezier(0.16, 1, 0.3, 1),
+    box-shadow 0.4s ease,
+    border-color 0.4s ease;
+  &:hover {
+    transform: translateY(-8px);
+    border-color: color-mix(in oklab, var(--neon) 55%, transparent);
+    box-shadow: var(--shadow-neon);
+  }
+}
+
+@utility text-gradient-neon {
+  background: var(--gradient-neon);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+
 /*
  * Design system definition.
  *
