@@ -355,6 +355,32 @@ function Index() {
         </div>
       </section>
 
+      {/* GALERIA */}
+      <section id="galeria" className="mx-auto max-w-6xl px-5 py-16">
+        <h2 className="font-display text-center text-3xl sm:text-4xl">
+          Conheça Mais <span className="text-gradient-neon">Nosso Trabalho</span>
+        </h2>
+        <p className="mx-auto mt-4 max-w-2xl text-center text-muted-foreground">
+          Confira a qualidade dos nossos serviços em mecânica, estética, películas e detalhes
+          automotivos.
+        </p>
+        <div className="mt-12 grid grid-cols-2 gap-4 sm:grid-cols-3">
+          {GALLERY.map((g) => (
+            <div
+              key={g.src}
+              className="glass glow-hover group relative overflow-hidden rounded-3xl p-1.5"
+            >
+              <img
+                src={g.src}
+                alt={g.alt}
+                loading="lazy"
+                className="aspect-square w-full rounded-2xl object-cover transition-transform duration-700 group-hover:scale-110"
+              />
+            </div>
+          ))}
+        </div>
+      </section>
+
       {/* AVALIAÇÕES */}
       <section id="avaliacoes" className="mx-auto max-w-6xl px-5 py-24">
         <h2 className="font-display text-center text-3xl sm:text-4xl">
