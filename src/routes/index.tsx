@@ -20,7 +20,7 @@ import {
   Navigation,
 } from "lucide-react";
 import heroImg from "@/assets/hero.jpg";
-import teamImg from "@/assets/team.jpg";
+import teamAsset from "@/assets/equipe.jpg.asset.json";
 
 const WHATSAPP =
   "https://api.whatsapp.com/send?phone=554799727651&text=Te%20encontrei%20pelo%20GOOGLE%20e%20gostaria%20de%20atendimento.";
@@ -276,11 +276,11 @@ function Index() {
           </div>
           <div className="glass glow-hover overflow-hidden rounded-3xl p-2">
             <img
-              src={teamImg}
+              src={teamAsset.url}
               alt="Equipe Jr Auto Center na oficina"
               loading="lazy"
-              width={1280}
-              height={864}
+              width={1080}
+              height={1382}
               className="h-full w-full rounded-2xl object-cover"
             />
           </div>
