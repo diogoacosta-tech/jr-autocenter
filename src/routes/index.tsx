@@ -16,7 +16,6 @@ import {
   Phone,
   Instagram,
   Menu,
-  X,
   MessageCircle,
   Navigation,
 } from "lucide-react";
